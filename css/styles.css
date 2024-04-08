@@ -347,11 +347,13 @@ p {
 }
 
 @media only screen and (min-width: 768px) {
+  .hero {
+    max-width: 768px;
+  }
   .hero-title {
     font-size: 56px;
     line-height: 1.07;
     margin: 0 auto 36px;
-    max-width: 496px;
   }
 }
 @media only screen and (min-width: 1440px) {
